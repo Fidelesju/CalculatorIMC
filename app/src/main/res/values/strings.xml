@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CalculatorIMC</string>
+    <string name="titulo_app">CALCULADORA IMC</string>
+    <string name="altura">ALTURA</string>
+    <string name="man">HOMEN</string>
+    <string name="woman">MULHER</string>
+    <string name="textViewAltura">ALTURA</string>
+    <string name="peso">PESO</string>
+    <string name="textViewPeso">%1$i</string>
+    <string name="idade">IDADE</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="textViewIdade">%1$i</string>
+    <string name="plus">+</string>
+    <string name="less">-</string>
+    <string name="magreza_grave">MAGREZA GRAVE</string>
+    <string name="magreza_moderada">MAGREZA MODERADA</string>
+    <string name="magreza_leve">MAGREZA LEVE</string>
+    <string name="saudavel">SAUDÁVEL</string>
+    <string name="sobrepeso">SOBREPESO</string>
+    <string name="obesidade_grau_i">OBESIDADE GRAU I</string>
+    <string name="obesidade_grau_ii">OBESIDADE GRAU II</string>
+    <string name="obesidade_grau_iii">OBESIDADE GRAU III</string>
+    <string name="categoria">Categoria</string>
+    <string name="diferenca">Diferença</string>
+    <string name="imc">IMC</string>
+
+<!--    values-->
+    <string name="values_imc">%1$f</string>
+    <string name="values_categoria">%1$s</string>
+    <string name="values_diferenca">%1$f Kg</string>
+    <string name="values_magreza_grave">MAGREZA GRAVE</string>
+    <string name="values_magreza_moderada">MAGREZA MODERADA</string>
+    <string name="values_magreza_leve">MAGREZA LEVE</string>
+    <string name="values_saudavel">SAUDÁVEL</string>
+    <string name="values_sobrepeso">SOBREPESO</string>
+    <string name="values_obesidade_grau_i">OBESIDADE GRAU I</string>
+    <string name="values_obesidade_grau_ii">OBESIDADE GRAU II</string>
+    <string name="values_obesidade_grau_iii">OBESIDADE GRAU III</string>
+
+
+</resources>
