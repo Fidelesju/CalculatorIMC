@@ -21,21 +21,21 @@
     <string name="obesidade_grau_ii">OBESIDADE GRAU II</string>
     <string name="obesidade_grau_iii">OBESIDADE GRAU III</string>
     <string name="categoria">Categoria</string>
-    <string name="diferenca">Diferença</string>
+    <string name="diferenca">Valor</string>
     <string name="imc">IMC</string>
 
 <!--    values-->
     <string name="values_imc">%1$f</string>
     <string name="values_categoria">%1$s</string>
     <string name="values_diferenca">%1$f Kg</string>
-    <string name="values_magreza_grave">MAGREZA GRAVE</string>
-    <string name="values_magreza_moderada">MAGREZA MODERADA</string>
-    <string name="values_magreza_leve">MAGREZA LEVE</string>
-    <string name="values_saudavel">SAUDÁVEL</string>
-    <string name="values_sobrepeso">SOBREPESO</string>
-    <string name="values_obesidade_grau_i">OBESIDADE GRAU I</string>
-    <string name="values_obesidade_grau_ii">OBESIDADE GRAU II</string>
-    <string name="values_obesidade_grau_iii">OBESIDADE GRAU III</string>
+    <string name="values_magreza_grave"> Menor ou Igual a 15.9</string>
+    <string name="values_magreza_moderada">16 e 16.9</string>
+    <string name="values_magreza_leve">17 e 18.4</string>
+    <string name="values_saudavel">18.5 e 24.9</string>
+    <string name="values_sobrepeso">25 e 29.9</string>
+    <string name="values_obesidade_grau_i">30 e 34.9</string>
+    <string name="values_obesidade_grau_ii">35 e 39.9</string>
+    <string name="values_obesidade_grau_iii">Maior que 40</string>
 
 
 </resources>

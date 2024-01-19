@@ -25,9 +25,7 @@ class MainActivity : AppCompatActivity() {
         var peso : Int = 50
         var idade : Int = 20
         var altura : Int = 0
-        var resultado : Float = 0.0f
         var alturaConvert : Float =  0.0f
-        val sexo : String = ""
 
 
         textViewAltura.text = altura.toString()
@@ -77,17 +75,21 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonCalcular.setOnClickListener {
-            alturaConvert = (altura/100.0).toFloat()
-            resultado = peso/(alturaConvert * alturaConvert)
-            println(resultado)
-            println(alturaConvert)
-
-            val intent = Intent(this, ResultActivity::class.java)
-                .apply {
-                    putExtra("EXTRA_RESULT", resultado)
-                    putExtra("EXTRA_SEXO", sexo)
-                }
-            startActivity(intent)
+            calculandoIMC(altura,peso)
+            print("ENTROU AQUIIIIIIIIIIIII")
         }
+    }
+
+    fun calculandoIMC(altura : Int, peso : Int){
+
+        var resultado : Float = 0.0f
+        val alturaConvert : Float = altura.toFloat()/100.0f
+        resultado = peso/(alturaConvert * alturaConvert)
+
+        val intent = Intent(this, ResultActivity::class.java)
+            .apply {
+                putExtra("EXTRA_RESULT", resultado)
+            }
+        startActivity(intent)
     }
 }

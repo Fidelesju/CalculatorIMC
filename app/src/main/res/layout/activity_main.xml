@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
     tools:context=".MainActivity"
     >
 <!--    TITULO-->
@@ -13,10 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/titulo_app"
+        style="@style/Title3"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -36,7 +33,8 @@
             android:layout_width="150dp"
             android:layout_height="170dp"
             android:background="@drawable/button_sexo"
-            android:text="@string/woman"/>
+            android:text="@string/woman"
+            android:backgroundTint="@color/white"/>
 
         <Space
             android:layout_width="36dp"
@@ -75,9 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/altura"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/Title3" />
 
         <TextView
             android:id="@+id/textViewAltura"
@@ -85,9 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="@string/textViewAltura"
-            android:textColor="@color/white"
-            android:textSize="35sp"
-            android:textStyle="bold" />
+            style="@style/Title4"/>
 
         <SeekBar
             android:id="@+id/seekBarAltura"
@@ -120,9 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/peso"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
+                style="@style/Title3" />
 
             <TextView
                 android:id="@+id/textViewPeso"
@@ -130,9 +122,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/textViewPeso"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:textSize="35sp"/>
+                style="@style/Title4"
+                />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -186,9 +177,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/idade"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
+                style="@style/Title3" />
 
             <TextView
                 android:id="@+id/textViewIdade"
@@ -196,9 +185,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/textViewIdade"
-                android:textColor="@color/white"
-                android:textSize="35sp"
-                android:textStyle="bold" />
+                style="@style/Title4" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
